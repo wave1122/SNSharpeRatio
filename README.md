@@ -59,4 +59,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Ba Chu -  ba.chu@carleton.ca
 
-Project Link: [https://github.com/wave1122/DcorrTest](https://github.com/wave1122/DcorrTest)
+Project Link: [https://github.com/wave1122/SNSharpeRatio](https://github.com/wave1122/SNSharpeRatio)
