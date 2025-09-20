@@ -26,7 +26,6 @@
 #include <boost/format.hpp>
 #include <gsl/gsl_rng.h>
 #include <unistd.h>
-#include <filein.h>
 #include <limits>
 #include <float.h>
 #include <time.h>
@@ -72,8 +71,7 @@
 //#include <tests.h>
 
 
-#include <plot.h>
-#include <utils.h>
+
 
 
 #define CHUNK 1
