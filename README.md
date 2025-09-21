@@ -21,7 +21,7 @@ This repository provides C++ codes used to conduct Monte Carlo simulations in th
 On an Ubuntu machine, a binary executable can be built from a `cpp file` by running following shell script from the terminal:
 
 ```sh
-g++ -Wno-deprecated -O3 -Wfloat-equal -Wfatal-errors -m64 -std=gnu++17 -fopenmp -ldlib -lX11 -lpthread -lboost_thread -Wunknown-pragmas -Wall -Waggressive-loop-optimizations -mavx2 -march=native -mtune=native -I/<path-to-the-folder-containing-source-codes>/ -I/usr/include -I/usr/lib/gcc/x86_64-linux-gnu/4.9.3/include -I/<path-to-gsl-2.8>/include -I/usr/local/include -I/<path-to-dlib-20.0-library>/include -c/<path-to-the-folder-containing-source-codes>/CPP/<main file with extension *.cpp> -o .objs/main.o
+g++ -Wno-deprecated -O3 -Wfloat-equal -Wfatal-errors -m64 -std=gnu++17 -fopenmp -ldlib -lX11 -lpthread -lboost_thread -Wunknown-pragmas -Wall -Waggressive-loop-optimizations -mavx2 -march=native -mtune=native -I/<path-to-the-folder-containing-source-codes>/ -I/usr/include -I/usr/lib/gcc/x86_64-linux-gnu/4.9.3/include -I/<path-to-gsl-2.8>/include -I/usr/local/include -I/<path-to-dlib-20.0-library>/include -c/<path-to-the-folder-containing-source-codes>/CPP/<main-file-with-extension-*.cpp> -o .objs/main.o
 
 g++ -L/<path-to-gsl-2.8>/lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib -L/<path-to-dlib-20.0-library>/lib -o <name-of-the-binary-to-be-built> .objs/main.o  -fopenmp -O3 -m64 -lgsl -lgslcblas -lm -fopenmp -lpthread -lboost_thread -lX11 -ldlib -lblas -llapack  -lgsl -lgslcblas -lm
 ```
